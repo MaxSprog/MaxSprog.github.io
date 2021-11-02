@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     body.childNodes.forEach(node => {
         // console.log(node);
         if(i == 3){
-            node.log(node);
+            console.log(node);
         }
         i += 1;
     });
